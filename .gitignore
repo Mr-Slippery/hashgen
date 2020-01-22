@@ -1,3 +1,26 @@
+# Generated files
+nums.c
+params_def.c
+result.dat
+table.c
+hashes.data
+params.c
+params.dat
+klee.run
+
+# LLVM bitcode
+*.bc
+
+# KLEE result files
+klee-out-*/
+klee-last
+
+# Hashing failure files
+failed_*/
+
+# Binary with hash function
+hash
+
 # Prerequisites
 *.d
 
