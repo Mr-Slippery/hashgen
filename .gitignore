@@ -1,12 +1,12 @@
 # Generated files
-nums.c
-params_def.c
-result.dat
-table.c
-hashes.data
-params.c
-params.dat
-klee.run
+**/nums.c
+**/params_def.c
+**/result.dat
+**/table.c
+**/hashes.data
+**/params.c
+**/params.dat
+**/klee.run
 
 # LLVM bitcode
 *.bc
@@ -17,6 +17,7 @@ klee-last
 
 # Hashing failure files
 failed_*/
+ok_*/
 
 # Binary with hash function
 hash
