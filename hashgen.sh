@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+pip3 install -q -r requirements.txt
 echo "#define TABLE_SIZE ((uint32_t)$2)" > table.c
 python3 params.py $3 > params_def.c
 
