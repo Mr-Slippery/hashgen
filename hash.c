@@ -45,7 +45,7 @@ int main(/*@unused@*/ int argc, /*@unused@*/ char *argv[])
 #else
     #include "params.c"
 #endif
-    bool table[TABLE_SIZE] = {0};
+    bool table[TABLE_SIZE] = {false};
 
 #ifdef KLEE
     assert(!operation(table, TABLE_SIZE, nums, NUMS_LEN, params, PARAMS_LEN));
